@@ -12,7 +12,7 @@ class Solution{
 				}
 				current = current / 10;
 			}
-			//System.out.println(i);
+			//System.out.println(i); //출력은 어떻게?
 		}
 		return count;
 	}
