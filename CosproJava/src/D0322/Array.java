@@ -19,9 +19,9 @@ class Solution{
 public class Array {
 	public static void main(String[] args) {
 		Solution sol = new Solution();
+		
 		int[] arr = {1,4,2,3};
 		int[] ret = sol.solution(arr);
-		
 		System.out.println("Solution: return value of the method is "+ Arrays.toString(ret)+ " .");
 	}
 	
