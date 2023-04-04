@@ -23,14 +23,13 @@ public class Palindrome {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Solution1 sol1 = new Solution1();
+		
 		String sentence1 = "never odd or even";
 		boolean ret1 = sol1.solution1(sentence1);
-		
 		System.out.println("Solution : return value of the method is " + ret1 + ". ");
 		
 		String sentence2 = "palindrome";
 		boolean ret2 = sol1.solution1(sentence2);
-		
 		System.out.println("Solution : return value of the method is " + ret2 + ". ");
 	}
 
