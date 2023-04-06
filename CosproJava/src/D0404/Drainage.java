@@ -1,14 +1,14 @@
 package D0404;
 
-class Solution{
+class Solution1{
 	public int func_a(int[] arr) {
 		int count = 0;
 		for(int i = 0; i < arr.length; i++) {
 			if(arr[i]%5 == 0) {
 				count++;
-				return count;
 			}
 		}
+		return count;
 	}
 	public String func_b(int three, int five) {
 		if(three > five) {
@@ -41,7 +41,7 @@ public class Drainage {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Solution sol = new Solution();
+		Solution1 sol = new Solution1();
 		int[] arr = {2, 3, 6, 9, 12, 15, 10, 20, 22, 25};
 		String ret = sol.solution(arr);
 		
